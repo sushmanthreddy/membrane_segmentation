@@ -10,4 +10,4 @@ pinned: false
 ---
 
 # devolearn-web
-devolearn models deployed on a webapp
+devolearn model membrane segmentor deployed on a webapp

@@ -76,7 +76,7 @@ def cell_membrane_segmentation():
     file = st.file_uploader('Upload an image or choose an example')
     example_image = Image.open('./images/cell_membrane_segmentation_examples/'+selected_box2)
     threshold = st.sidebar.slider("Select Threshold (Applied on model output)", 0.0, 1.0, 0.1)
-    col1, col2, col3 = st.beta_columns(3)
+    col1, col2, col3 = st.columns(3)
 
     if file:
         input = Image.open(file)
